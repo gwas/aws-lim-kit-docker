@@ -1,0 +1,6 @@
+Host bitbucket.org
+        StrictHostKeyChecking no
+        IdentityFile /root/.ssh/ir_rsa-bitbucket
+Host github.com
+        IdentityFile /root/.ssh/ir_rsa-github
+

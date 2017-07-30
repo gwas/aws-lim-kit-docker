@@ -1,0 +1,15 @@
+# This file is here because many Platforms as a Service look for
+#	requirements.txt in the root directory of a project.
+# pylibmc==1.2.3
+# django-heroku-memcacheify==0.5
+# -r requirements/production.txt
+
+
+Django==1.11.3
+gunicorn==19.6.0
+boto==2.42.0
+boto3==1.4.1
+botocore==1.4.78
+pymongo==3.4.0
+Pillow==2.0.0
+zappa==0.43.1
